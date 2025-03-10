@@ -2,7 +2,7 @@
 
 This project demonstrates advanced applications of Large Language Models (LLMs) in software development and AI systems. Building upon concepts from the previous laboratory, it explores sophisticated techniques for integrating LLMs into various workflows.
 
-Please refer to the [main README]() for setup instructions and environment configuration.
+Please refer to the [main README](https://github.com/cric96/course-asmd23-llm-intro-code) for setup instructions and environment configuration.
 
 ## Key Components
 
