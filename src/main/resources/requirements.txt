@@ -1,0 +1,15 @@
+The system should be a web-based application.
+Trainers can create structured workout programs.
+Workout programs should be tailored to each member’s goals.
+Trainers can assign routines.
+Trainers can set reps, sets, and weights for exercises.
+Trainers can adjust routines, reps, sets, and weights as the member progresses.
+Trainers can monitor member performance over time.
+Members can log their workouts in real time.
+Members can track their progress.
+Members can revisit past sessions.
+The system should include a calendar for scheduling workouts.
+Members can save and reuse workout routines.
+The system should improve organization.
+The system should improve accountability.
+The system should improve member satisfaction.

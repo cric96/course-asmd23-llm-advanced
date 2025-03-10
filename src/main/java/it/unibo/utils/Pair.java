@@ -1,5 +1,7 @@
 package it.unibo.utils;
 
+import java.util.function.Function;
+
 public class Pair<X, Y> {
     private final X x;
     private final Y y;
@@ -17,6 +19,14 @@ public class Pair<X, Y> {
         return y;
     }
 
+    public <Z> Pair<Z, Y> mapX(Function<X, Z> f) {
+        return new Pair<>(f.apply(x), y);
+    }
+
+    public <Z> Pair<X, Z> mapY(Function<Y, Z> f) {
+        return new Pair<>(x, f.apply(y));
+    }
+    
     @Override
     public String toString() {
         return "(" + x + ", " + y + ")";
